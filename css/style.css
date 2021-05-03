@@ -1,0 +1,12 @@
+* {
+    font-family: "Open Sans", "Helvetica Neue", sans-;
+}
+
+article {
+        margin: 25px;
+}
+
+h2,
+li {
+    margin: 5px
+}
