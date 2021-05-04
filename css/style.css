@@ -1,5 +1,33 @@
 * {
+    background-color: rgb(37, 37, 37);
     font-family: "Open Sans", "Helvetica Neue", sans-;
+}
+
+table,
+tr,
+td {
+    color: white;
+    border: 1px rgb(128, 128, 128) solid;
+    border-collapse: collapse;
+}
+
+td {
+    width: 60px;
+}
+
+table {
+    border: none;
+    background-color: rgb(49, 49, 49);
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+
+.tableHeader {
+    border: none;
 }
 
 article {
