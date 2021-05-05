@@ -105,6 +105,15 @@ function allCitiesTotalPHour() {
 
 }
 
+// function pushCitiesNames() {
+//   for (let i = 0; i < CitiesObjectsArray.length; i++) {
+//     let citiesListEl = document.getElementById('citiesList')
+//     let cityName = document.createElement('li');
+//     cityName.textContent = CitiesObjectsArray[i].cityName;
+//     citiesListEl.appendChild(cityName);
+//   }
+// }
+
 setUpBasicTableWithTime();
 
 let seattle = new CityShop('seattle', 23, 65, 6.3);
