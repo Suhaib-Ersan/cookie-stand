@@ -2,18 +2,94 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.highlights {
+  font-size: 25px;
+  font-family: "Krona One", sans-serif;
+  background-color: rgba(18, 92, 92, 0.836);
+  color: rgba(255, 255, 255, 0.884);
+}
+
+t {
+  font-style: italic;
+}
+
+/* 
+#E27d60
+#85DCB
+#E8A87C
+#C38D9E
+#41B3A3
+*/
+
 body {
   font-size: 26px;
   color: rgba(0, 0, 0, 0.89);
-  background-color: rgb(192, 255, 234);
+  background-color: #f1f1f1;
   line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#headerDiv {
+  position: sticky;
+    top: 0;
+  background-color: #41b3a3;
+  width: 100%;
+  padding: 25px 0px;
+  margin: 0;
+  text-align: left;
+}
+
+ul {
+  margin-left: 380px;
+  margin-right: 380px;
+}
+
+ul a:last-child {
+  margin-right: 0;
+}
+
+ul a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+ul a li {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #e26071;
+  margin-right: 50px;
+  transition: 0.1s;
+}
+
+ul a li:hover {
+  background-color: #e8a87c;
+  transition: 0.3s;
+}
+
+#quote {
+    color: rgba(0, 0, 0, 0.212);
+    display: block;
+    font-style: italic;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#quoteUnkown {
+    color: rgba(0, 0, 0, 0.212);
+    font-size: 18px;;
+    font-style: italic;
+    text-align: center;
 }
 
 img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 70px;
+  margin-top: 35px;
   margin-bottom: 70px;
 }
 
@@ -24,11 +100,45 @@ img {
   text-align: center;
 }
 
-.highlights {
-  font-size: 25px;
-  font-family: "Cinzel", sans-serif;
-  background-color: rgba(18, 92, 92, 0.836);
-  color: rgba(255, 255, 255, 0.884);
+#articlesDiv div {
+  margin-top: 35px;
+}
+
+#articlesDiv > div:nth-child(3) > img {
+    width: 100%;
+}
+
+#salmon {
+    width: 90%;
+}
+
+#articlesDiv > div:nth-child(4) {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#articlesDiv > div:nth-child(5) {
+    clear: both;
+}
+
+article {
+  margin: 25px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+ol {
+  list-style: circle;
+}
+
+
+
+.floatRight {
+  float: right;
 }
 
 table,
@@ -64,69 +174,10 @@ table {
   border: none;
 }
 
-article {
-  margin: 25px;
-}
-
-
-ul {
-  margin-left: 380px;
-  margin-right: 380px;
-}
-
-ul a:last-child {
-  margin-right: 0;
-}
-
-ul a {
-    color: rgb(2, 25, 46);
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bolder;
-    
-}
-
-ul a li {
-  
-  display: inline-block;
-  padding: 10px 25px;
-  background-color: rgb(82, 150, 253);
-  margin-right: 50px;
-}
-
-#headerDiv {
-  background-color: rgb(7, 29, 61);
-  width: 100%;
-  padding: 25px 0px;
-  margin: 0;
-  text-align: left;
-}
-
-h3 {
-  font-size: 32px;
-  font-weight: 800;
-}
-
 footer {
   color: white;
   text-align: center;
   padding: 40px;
   margin-top: 70px;
-  background-color: rgb(7, 29, 61);
-}
-
-ol {
-  list-style: circle;
-}
-
-#articlesDiv div {
-  margin-top: 35px;
-}
-
-.floatRight {
-  float: right;
-}
-
-t {
-  font-style: italic;
+  background-color: #41b3a3;
 }
