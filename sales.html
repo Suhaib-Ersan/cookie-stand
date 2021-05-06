@@ -7,13 +7,14 @@
     <title>Sales</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet" />
-    <link rel="shortcut icon" href="img/salmon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div id="headerDiv">
       <header>
+          <a href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
         <ul>
           <a href="index.html"><li>Home</li></a>
           <a href="sales.html"><li>Sales</li></a>
@@ -25,19 +26,41 @@
       <img id="salmon" src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" alt="" />
       <p>Hello and welcome to <mark class="highlights">Pats Salmon cookies</mark> site!</p>
 
-      <h3>Calculated data:</h3>
     </div>
     <div id="ourBusinessDiv">
-        <div>
-            <img src="img/cutter.jpeg" alt="">
-            <span>Our business uses the best of the best of salmon cookie cutters <t>- note: not made from real salmon -</t>that use the highest quality of materials available to man!</span>
-        </div>
-        <div>
-            <img src="img/frosted-cookie.jpg" alt="">
-            <span>From cutters to lovely <mark class="highlights">Pats Salmon cookies&trade;</mark>! no eating your hands after those though, as you'll need 'em to eat more of our mouth-drooling cookies!</span>
-        </div>
+      <div>
+        <img src="img/cutter.jpeg" alt="" />
+        <span>Our business uses the best of the best of salmon cookie cutters <t>- note: not made from real salmon -</t>that use the highest quality of materials available to man!</span>
+      </div>
+      <div>
+        <img src="img/frosted-cookie.jpg" alt="" />
+        <span>From cutters to lovely <mark class="highlights">Pats Salmon cookies&trade;</mark>! no eating your hands after those though, as you'll need 'em to eat more of our mouth-drooling cookies!</span>
+      </div>
+      <h3>And we make this many cookies DAILY!!!</h3>
     </div>
+
     <section id="container"></section>
+
+    <section id="cookieAddFormSection">
+      <form id="cookieAddForm" action="">
+        <fieldset>
+          <legend>Try a new location</legend>
+          <label for="cityName">Location Name</label>
+          <input id="cityName" name="cityName" placeholder="Location name.." type="text">
+
+          <label for="minCustPHour">Minimum amount of customers that visit each hour</label>
+          <input id="minCustPHour" name="minCustPHour" placeholder="Minimum cookies per hour.." type="number">
+
+          <label for="maxCustPHour">Maximum amount of customers that visit each hour</label>
+          <input id="maxCustPHour" name="maxCustPHour" placeholder="Maximum cookies per hour.." type="number">
+
+          <label for="avgCookiesPCust">Average cookies sold per customer</label>
+          <input id="avgCookiesPCust" name="avgCookiesPCust" placeholder="Average cookies.." type="number"  step="0.01">
+
+          <input type="submit" value="Add a location">
+        </fieldset>
+      </form>
+    </section>
 
     <footer>All right reserved for <mark class="highlights">Pats Salmon cookies&trade;</mark></footer>
     <script src="js/sales.js"></script>
