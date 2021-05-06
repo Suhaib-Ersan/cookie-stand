@@ -13,13 +13,7 @@ t {
   font-style: italic;
 }
 
-/* 
-#E27d60
-#85DCB
-#E8A87C
-#C38D9E
-#41B3A3
-*/
+
 
 body {
   font-size: 26px;
@@ -78,7 +72,7 @@ ul a li:hover {
     text-align: center;
 }
 
-#quoteUnkown {
+#quoteUnknown {
     color: rgba(0, 0, 0, 0.212);
     font-size: 18px;;
     font-style: italic;
@@ -104,18 +98,11 @@ img {
   margin-top: 35px;
 }
 
-#articlesDiv > div:nth-child(3) > img {
-    width: 100%;
-}
 
 #salmon {
     width: 90%;
 }
 
-#articlesDiv > div:nth-child(4) {
-    display: flex;
-    align-items: center;
-    width: 100%;
 }
 
 #articlesDiv > div:nth-child(5) {
@@ -124,6 +111,25 @@ img {
 
 article {
   margin: 25px;
+}
+
+#ourBusinessDiv div:nth-child(1)  {
+    margin: 0 380px;
+    display: flex;
+}
+
+#ourBusinessDiv div:nth-child(2)  {
+    margin: 0 380px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#ourBusinessDiv div:nth-child(1) span {
+   padding: 30px 0px 30px 30px;
+}
+
+#ourBusinessDiv div:nth-child(2) span {
+    padding: 30px 30px 30px 0;
 }
 
 h3 {
@@ -141,12 +147,20 @@ ol {
   float: right;
 }
 
+/* 
+#E27d60
+#85DCB
+#E8A87C
+#C38D9E
+#41B3A3
+*/
+
 table,
 tr,
 td,
 th {
-  color: rgba(13, 68, 100, 0.87);
-  border: 1px rgb(128, 128, 128) solid;
+  color: rgba(255, 255, 255, 0.87);
+  border: 2px rgba(255, 255, 255, 0.87) solid;
   border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
@@ -167,7 +181,7 @@ table {
   margin-top: 25px;
   width: 90%;
   border: none;
-  background-color: rgba(238, 255, 249, 0.822);
+  background-color: #5da8cb;
 }
 
 .tableHeader {
@@ -181,3 +195,32 @@ footer {
   margin-top: 70px;
   background-color: #41b3a3;
 }
+
+#salmonShirt {
+    background-color: #41b3a3;
+    color: white;
+    padding: 15px;
+    width: 500px;
+    height: 150px;
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    display: flex;
+    font-size: 25px;
+    /* transition: 0.5s; */
+}
+
+#salmonShirt img {
+    height: 150px;
+    margin-top: 0;
+}
+
+#salmonShirt span {
+   margin-top: 35px;
+}
+
+/* #salmonShirt:hover {
+    opacity: 0;
+    transition: 0.5s;
+} */
+
